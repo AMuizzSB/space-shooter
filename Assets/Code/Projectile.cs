@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 public class Projectile : MonoBehaviour
 {
     public GameObject explocionEffect;
-    private float damage = 10f;
+    private float damage = 2f;
     private float vida;
     private Player player;
 

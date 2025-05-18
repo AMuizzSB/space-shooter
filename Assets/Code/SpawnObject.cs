@@ -20,7 +20,7 @@ public class SpawnObject : MonoBehaviour
     void Spawn()
     {
         float randomX = Random.Range(-2f, 2f);
-        Vector2 spawnPosition = new Vector2(randomX, 6f);
+        Vector2 spawnPosition = new Vector2(randomX, 5.5f);
         Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
     }
 }
